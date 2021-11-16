@@ -94,7 +94,7 @@ function GenreMenu() {
 
 
     return (
-        <div className="bg-cream lg:col-span-1 xl:col-span-1 sm:col-span-4 md:col-span-6">
+        <div className="bg-dark lg:col-span-1 xl:col-span-1 sm:col-span-4 md:col-span-6">
             <div>
                 {/* Mobile filter dialog */}
                 <Transition.Root show={mobileFiltersOpen} as={Fragment}>
@@ -139,7 +139,7 @@ function GenreMenu() {
                                             {({ open }) => (
                                                 <>
                                                     <h3 className="-mx-2 -my-3 flow-root">
-                                                        <Disclosure.Button className="px-2 py-3 bg-cream w-full flex items-center justify-between text-gray-400 hover:text-gray-500">
+                                                        <Disclosure.Button className="px-2 py-3 bg-dark w-full flex items-center justify-between text-gray-400 hover:text-gray-500">
                                                             <span className="font-medium text-gray-900">{section.name}</span>
                                                             <span className="ml-6 flex items-center">
                                                                 {open ? (
@@ -158,7 +158,7 @@ function GenreMenu() {
                                                                         id={`${item.id}`}
                                                                         name={`${item.name}[]`}
                                                                         type="checkbox"
-                                                                        className="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+                                                                        className="h-4 w-4 border-gray-300 rounded text-green focus:ring-green"
                                                                         onClick={(e) => {
                                                                             handleClick(e, item._id);
                                                                         }}
@@ -184,7 +184,7 @@ function GenreMenu() {
                 </Transition.Root>
                 <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="relative z-10 flex items-baseline justify-between pt-24 pb-6 border-b border-gray-200">
-                        <h1 className="text-4xl font-extrabold tracking-tight text-indigo-600">Sort By</h1>
+                        <h1 className="text-4xl font-extrabold tracking-tight text-green">Sort By</h1>
                         <div className="flex items-center">
                             <Menu as="div" className="relative inline-block text-left">
                                 <div>
@@ -198,7 +198,7 @@ function GenreMenu() {
                                     leaveFrom="transform opacity-100 scale-100"
                                     leaveTo="transform opacity-0 scale-95"
                                 >
-                                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-2xl bg-cream ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-2xl bg-dark ring-1 ring-black ring-opacity-5 focus:outline-none">
                                         <div className="py-1">
                                             {sortOptions.map((option) => (
                                                 <Menu.Item key={option.name}>
@@ -247,8 +247,8 @@ function GenreMenu() {
                                         {({ open }) => (
                                             <>
                                                 <h3 className="-my-3 flow-root">
-                                                    <Disclosure.Button className="py-3 bg-cream w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500">
-                                                        <span className="font-medium text-gray-900">{section.name}</span>
+                                                    <Disclosure.Button className="py-3 bg-dark w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500">
+                                                        <span className="font-medium text-green">{section.name}</span>
                                                         <span className="ml-6 flex items-center">
                                                             {open ? (
                                                                 <MinusSmIcon className="h-5 w-5" aria-hidden="true" />
@@ -266,14 +266,14 @@ function GenreMenu() {
                                                                     id={`${item.id}`}
                                                                     name={`${item.name}[]`}
                                                                     type="checkbox"
-                                                                    className="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+                                                                    className="h-4 w-4 border-gray-300 rounded text-green focus:ring-green"
                                                                     onClick={(e) => {
                                                                         handleClick(e, item._id);
                                                                     }}
                                                                 />
                                                                 <label
                                                                     htmlFor={`${item.id}`}
-                                                                    className="ml-3 text-sm text-gray-600"
+                                                                    className="ml-3 text-sm text-green"
                                                                 >
                                                                     {item.name}
                                                                 </label>

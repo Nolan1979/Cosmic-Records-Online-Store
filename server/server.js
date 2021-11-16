@@ -5,7 +5,7 @@ const { authMiddleware } = require("./utils/auth");
 const { typeDefs, resolvers } = require('./schema');
 const path = require('path');
 
-const PORT = process.env.PORT || 3010
+const PORT = process.env.PORT || 3025
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
@@ -33,9 +33,9 @@ const startApolloServer = async () => {
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname, '../client/build')));
 }
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/build/index.html'));
-});
+// app.get('*', (req, res) => {
+//     res.sendFile(path.join(__dirname, '../client/build/index.html'));
+// });
 
 db.once('open', () => {
     startApolloServer();

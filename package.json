@@ -17,6 +17,7 @@
     "concurrently": "^6.3.0"
   },
   "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.3.0"
+    "@tailwindcss/aspect-ratio": "^0.3.0",
+    "react-paginate": "^8.0.0"
   }
 }

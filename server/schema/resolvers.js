@@ -3,6 +3,7 @@ const { User, Product, Genre, Order } = require("../models");
 const { signToken } = require("../utils/auth");
 const stripe = require('stripe')(process.env.STRIPE_SECRET);
 
+
 const resolvers = {
     Query: {
         user: async (parent, args, context) => {
@@ -53,7 +54,7 @@ const resolvers = {
             throw new AuthenticationError('Not logged in');
         },
 
-        
+
 
         checkout: async (parent, args, context) => {
             const url = new URL(context.headers.referer).origin;
@@ -147,3 +148,4 @@ const resolvers = {
 }
 
 module.exports = resolvers
+

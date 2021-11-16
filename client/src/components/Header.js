@@ -4,11 +4,11 @@ import { Popover } from '@headlessui/react'
 
 export default function Header() {
     return (
-        <div className="relative bg-cream overflow-hidden m-20 rounded">
+        <div className="relative bg-dark overflow-hidden m-20 rounded">
             <div className="max-w-7xl mx-auto">
-                <div className="relative z-10 pb-8 bg-cream sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+                <div className="relative z-10 pb-8 bg-dark sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
                     <svg
-                        className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-cream transform translate-x-1/2"
+                        className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-dark transform translate-x-1/2"
                         fill="currentColor"
                         viewBox="0 0 100 100"
                         preserveAspectRatio="none"
@@ -25,11 +25,11 @@ export default function Header() {
                     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div className="sm:text-left lg:text-left">
 
-                            <h1 className="text-5xl tracking-tight font-logo text-pink sm:text-5xl md:text-8xl">
-                                <span className="block xl:inline ">Cosmic Records</span>{' '}
+                            <h1 className="text-5xl tracking-tight font-logo text-green sm:text-5xl md:text-8xl">
+                                <span className="block xl:inline ">COSMIC RECORDS</span>{' '}
                             </h1>
                             <h2 className="text-5xl tracking-tight font-logo text-indigo-600 sm:text-5xl md:text-6xl">
-                                <span className="block text-indigo-600 xl:inline">online store</span>
+                                <span className="block text-indigo-600 xl:inline">ONLINE STORE</span>
                             </h2>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">

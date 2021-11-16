@@ -33,18 +33,13 @@ export default function Contact() {
                     <div className="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
                         <div className="max-w-md w-full space-y-8">
                         <div>
-                            <img
-                                className="mx-auto h-12 w-auto"
-                                src="https://res.cloudinary.com/cosmic-records/image/upload/c_scale,h_300,w_300/v1635299182/cosmic%20records/Cosmic_Records_4_v9sdkz.png"
-                                alt="Workflow"
-                            />
-                            <h2 className="mt-6 text-center text-3xl font-extrabold text-pink">Reach Out!</h2>
+                            <h2 className="mt-6 text-center text-3xl font-extrabold text-green">Reach Out!</h2>
                         </div>
                             <div className="rounded-md content-around ">
                                 <div>
                                     <label
                                         htmlFor="first-name"
-                                        className="block text-sm mt-5 mb-1 font-medium text-gray-700"
+                                        className="block text-sm mt-5 mb-1 font-medium text-blue"
                                     >
                                         First name
                                     </label>
@@ -56,11 +51,10 @@ export default function Contact() {
                                         className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                                     />
                                 </div>
-
                                 <div>
                                     <label
                                         htmlFor="last-name"
-                                        className="block text-sm mt-5 mb-1 font-medium text-gray-700"
+                                        className="block text-sm mt-5 mb-1 font-medium text-blue"
                                     >
                                         Last name
                                     </label>
@@ -76,7 +70,7 @@ export default function Contact() {
                                 <div>
                                     <label
                                         htmlFor="email-address"
-                                        className="block text-sm mt-5 mb-1 font-medium text-gray-700"
+                                        className="block text-sm mt-5 mb-1 font-medium text-blue"
                                     >
                                         Email address
                                     </label>
@@ -92,7 +86,7 @@ export default function Contact() {
                                 <div>
                                     <label
                                         htmlFor="order-number"
-                                        className="block text-sm mt-5 mb-1 font-medium text-gray-700"
+                                        className="block text-sm mt-5 mb-1 font-medium text-blue"
                                     >
                                         Order number
                                     </label>
@@ -107,7 +101,7 @@ export default function Contact() {
                                 <div>
                                     <label
                                         htmlFor="about"
-                                        className="block text-sm mt-5 mb-1 font-medium text-gray-700"
+                                        className="block text-sm mt-5 mb-1 font-medium text-blue"
                                     >
                                         Message
                                     </label>
@@ -128,7 +122,7 @@ export default function Contact() {
                                 <div>
                                     <button
                                         type="submit"
-                                        className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-pink hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink"
+                                        className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green"
                                         onClick={() => setOpen(true)}
                                     >
                                         Send Message

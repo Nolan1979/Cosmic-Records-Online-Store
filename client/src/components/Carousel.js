@@ -8,17 +8,23 @@ export default function Index() {
     return (
         <>
         <div className="xl:mx-auto xl:container ">
+            
         <div className="lg:px-20 md:px-6 px-4 md:py-12 py-8">
             <div className="flex flex-col-reverse lg:flex-row items-center m-20 justify-center">
                 {/* <div className="w-full lg:w-1/2 md:py-9 py-6">
                     <img src="https://cdn.tuk.dev/assets/templates/e-commerce-kit/luxe2.png" alt="bag" className="lg:w-full h-full object-cover object-center w-full" />
                 </div> */}
                 <div className="lg:w-1/2 lg:pl-12 lg:pr-24">
-                    <p className="text-xl leading-none font-semibold text-gray-600 pb-2">Coming Soon!</p>
+                <div className="items-center pb-20">
+                <img
+                src="https://res.cloudinary.com/cosmic-records/image/upload/v1637023932/cosmic%20records/cosmic_logo_1_o5tsvr.png"
+                />
+            </div>
+                    <p className="text-xl leading-none font-semibold text-gray-400 pb-2">Coming Soon!</p>
                     <p className="md:text-3xl lg:text-4xl text-3xl font-logo lg:leading-9 text-indigo-600 lg:pb-6 md:pb-4 pb-2">Bargain Bin</p>
-                    <p className="text-xl leading-5 font-semibold text-pink md:pb-10 pb-8">Check out our Bargain Bin!</p>
+                    <p className="text-xl leading-5 font-semibold text-green md:pb-10 pb-8">Check out our Bargain Bin!</p>
                     <div className="md:block flex items-center justify-center">
-                        <button className="lg:w-auto w-full border border-gray-800 hover:text-gray-50 hover:bg-pink focus:outline-none lg:px-10 px-7 lg:py-4 py-3 text-lg font-bold leading-none text-indigo-600 rounded-2xl">Cheap S**t!</button>
+                        <button className="lg:w-auto w-full border border-green hover:text-gray-50 hover:bg-green focus:outline-none lg:px-10 px-7 lg:py-4 py-3 text-lg font-bold leading-none text-indigo-600 rounded-2xl">Cheap Shit!</button>
                     </div>
                 </div>
             </div>
@@ -38,13 +44,13 @@ export default function Index() {
                             <Slide index={0}>
                                 <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-pink">Mr. Oizo - Stade 2</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-green">Mr. Oizo - Stade 2</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635301245/cosmic%20records/mr_oizo_stade_lg_ziqtjf.jpg" alt="album cover" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-pink">Mr. Oizo - Stade 2</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-green">Mr. Oizo - Stade 2</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635301245/cosmic%20records/mr_oizo_stade_lg_ziqtjf.jpg" alt="album cover" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>
@@ -54,13 +60,13 @@ export default function Index() {
                             <Slide index={1}>
                                 <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-pink">Blue Hawaii - Untogether</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-green">Blue Hawaii - Untogether</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635300996/cosmic%20records/blue_hawaii_bwuzbb.jpg" alt="chairs" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-pink">Blue Hawaii - Untogether</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-green">Blue Hawaii - Untogether</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635300996/cosmic%20records/blue_hawaii_bwuzbb.jpg" alt="chairs" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>
@@ -70,13 +76,13 @@ export default function Index() {
                             <Slide index={2}>
                                 <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-pink">Dabrye - Instrmntl</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-green">Dabrye - Instrmntl</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635300996/cosmic%20records/dabrye_instrmntl_b2ee5h.jpg" alt="chair" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-pink">Dabrye - Instrmntl</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-green">Dabrye - Instrmntl</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635300996/cosmic%20records/dabrye_instrmntl_b2ee5h.jpg" alt="chair" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>
@@ -104,13 +110,13 @@ export default function Index() {
                             <Slide className="carousel__inner-slideLarge" index={0}>
                                 <div className="gallery-cell w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-pink ">Mr. Oizo - Stade 2</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-green ">Mr. Oizo - Stade 2</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635301245/cosmic%20records/mr_oizo_stade_lg_ziqtjf.jpg" alt="sitting area" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-pink">Mr. Oizo - Stade 2</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-green">Mr. Oizo - Stade 2</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635301245/cosmic%20records/mr_oizo_stade_lg_ziqtjf.jpg" alt="sitting area" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>
@@ -120,13 +126,13 @@ export default function Index() {
                             <Slide className="carousel__inner-slideLarge" index={1}>
                                 <div className="gallery-cell w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-pink">Blue Hawaii - Untogether</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-green">Blue Hawaii - Untogether</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635300996/cosmic%20records/blue_hawaii_bwuzbb.jpg" alt="chairs" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-pink">Blue Hawaii - Untogether</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-green">Blue Hawaii - Untogether</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635300996/cosmic%20records/blue_hawaii_bwuzbb.jpg" alt="chairs" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>
@@ -136,13 +142,13 @@ export default function Index() {
                             <Slide className="carousel__inner-slideLarge" index={2}>
                                 <div className="gallery-cell w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-pink">Dabrye - Instrmntl</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-green">Dabrye - Instrmntl</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635300996/cosmic%20records/dabrye_instrmntl_b2ee5h.jpg" alt="chair" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-pink">Dabrye - Instrmntl</h1>
+                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-logo text-green">Dabrye - Instrmntl</h1>
                                         <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635300996/cosmic%20records/dabrye_instrmntl_b2ee5h.jpg" alt="chair" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                         </div>

@@ -12,14 +12,14 @@ function Company() {
                 <div className="container flex justify-center mx-auto pt-16">
                     <div>
                         <p className="text-blue text-lg text-center font-normal pb-3">BUILDING TEAM</p>
-                        <h1 className="xl:text-4xl text-3xl text-center text-pink font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">The Talented People Behind the Scenes of the Organization</h1>
+                        <h1 className="xl:text-4xl text-3xl text-center text-blue font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">The Talented People Behind the Scenes of the Organization</h1>
                     </div>
                 </div>
-                <div className="w-full bg-cream px-10 pt-10">
+                <div className="w-full bg-dark px-10 pt-10">
                     <div className="container mx-auto">
                         <div className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
                             <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                                <div className="rounded-2xl overflow-hidden shadow-md bg-dark">
+                                <div className="rounded-2xl overflow-hidden outline-white bg-dark">
                                     <div className="absolute -mt-20 w-full flex justify-center">
                                         <div className="h-32 w-32">
                                             <img src="https://res.cloudinary.com/cosmic-records/image/upload/c_thumb,w_200,g_face/v1635544052/cosmic%20records/IMAG0007_yrlg4t.jpg" alt className="rounded-full object-cover h-full w-full shadow-md" />
@@ -42,7 +42,7 @@ function Company() {
                                 </div>
                             </div>
                             <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                                <div className="rounded-2xl overflow-hidden shadow-md bg-dark">
+                                <div className="rounded-2xl overflow-hidden outline-white bg-dark">
                                     <div className="absolute -mt-20 w-full flex justify-center">
                                         <div className="h-32 w-32">
                                             <img src="https://res.cloudinary.com/cosmic-records/image/upload/v1635545909/cosmic%20records/6244A078-38A8-4081-A536-51169BFCE1BF_1_105_c_iydwml.jpg" alt className="rounded-full object-cover h-full w-full shadow-md" />
@@ -65,7 +65,7 @@ function Company() {
                                 </div>
                             </div>
                             <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                                <div className="rounded-2xl overflow-hidden shadow-md bg-dark">
+                                <div className="rounded-2xl overflow-hidden outline-white bg-dark">
                                     <div className="absolute -mt-20 w-full flex justify-center">
                                         <div className="h-32 w-32">
                                             <img src="https://res.cloudinary.com/cosmic-records/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1635548562/cosmic%20records/Image_from_iOS_u3udjd.jpg" alt className="rounded-full object-cover h-full w-full shadow-md" />

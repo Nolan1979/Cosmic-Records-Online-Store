@@ -132,7 +132,7 @@ export default function MyCart() {
                                             {Auth.loggedIn() ? (
                                                 <a
                                                     href="/Shipping"
-                                                    className="flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                                                    className="flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green"
                                                     onClick={submitCheckout}
                                                 >
                                                     Checkout
@@ -140,7 +140,7 @@ export default function MyCart() {
                                                 : (
                                                     <a 
                                                     href="/Login"                                                   
-                                                    className="flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                                                    className="flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green"
                                                     >
                                                     <span>(log in to check out)</span>
                                                     </a>
@@ -152,7 +152,7 @@ export default function MyCart() {
                                                 <a
                                                     type="button"
                                                     href="/Inventory"
-                                                    className="text-indigo-600 font-medium hover:text-indigo-500"
+                                                    className="text-green font-medium"
                                                     onClick={() => setOpen(false)}
                                                 >
                                                     Continue Shopping<span aria-hidden="true"> &rarr;</span>

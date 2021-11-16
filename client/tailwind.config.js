@@ -21,10 +21,11 @@ module.exports = {
   colors: {
     'pink': '#d4115d',
     'cream': 'rgb(255, 252, 233)',
-    'dark': 'rgb(34, 34, 55)',
+    'dark': 'rgb(27, 27, 28)',
     'green': 'rgb(86, 177, 168)',
     'blue': '#718096',
     'frog': 'rgb(6, 157, 74)',
+    'drk-ring': 'rgb(47, 47, 48)',
   }
 },
 

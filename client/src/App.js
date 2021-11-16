@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {
   ApolloClient,
@@ -9,7 +8,6 @@ import {
 import { setContext } from '@apollo/client/link/context';
 import './App.css';
 import { AnimatePresence } from 'framer-motion'
-
 import { StoreProvider } from './utils/GlobalState';
 import Home from './pages/Home';
 import Login from './pages/Login';

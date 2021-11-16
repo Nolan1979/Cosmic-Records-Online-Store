@@ -71,7 +71,7 @@ const CartItem = ({ item }) => {
                     <div className="flex-1 flex items-end justify-between text-sm">
                         <div className="flex">
                             <button type="button"
-                                className="font-medium text-indigo-600 hover:text-indigo-500"
+                                className="font-medium text-gray-500 hover:text-gray-900"
                                 onClick={() => removeFromCart(item)}>
                                 Remove
                         </button>
